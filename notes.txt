@@ -1,3 +1,14 @@
+- Phlex:
+    https://fly.io/ruby-dispatch/component-driven-development-on-rails-with-phlex
+    https://judoscale.com/blog/phlex-not-erb
+
+- Rails System Tests with Playwright instead of Selenium:
+    https://justin.searls.co/posts/running-rails-system-tests-with-playwright-instead-of-selenium
+
+- Rails 8 Authentication Generator
+    https://www.bigbinary.com/blog/rails-8-introduces-a-basic-authentication-generator
+    https://nithinbekal.com/posts/rails-8-auth/
+
 - 11 HTML best practices for login & sign-up forms:
     https://evilmartians.com/chronicles/html-best-practices-for-login-and-signup-forms
 
