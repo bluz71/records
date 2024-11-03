@@ -1,0 +1,13 @@
+- 11 HTML best practices for login & sign-up forms:
+    https://evilmartians.com/chronicles/html-best-practices-for-login-and-signup-forms
+
+    Use 'autocomplete':
+      <input type="email" autocomplete="username">
+      <input type="password" autocomplete="current-password">
+      <input type="password" autocomplete="new-password">
+
+    Use correct type:
+      <input type="email" autocomplete="username">
+
+    Use 'required' to force non-blank inputs:
+      <input type="email" required />
