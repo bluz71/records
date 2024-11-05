@@ -4,7 +4,7 @@ import forms from "@tailwindcss/forms"
 import typography from "@tailwindcss/typography"
 
 export default {
-  content: ["./app/views/**/*.{html,html.erb,rb}", "./app/frontend/**/*.{js}"],
+  content: ["./app/views/**/*.{html,html.erb,rb}", "./app/frontend/**/*.js"],
   darkMode: "selector",
   theme: {
     extend: {
