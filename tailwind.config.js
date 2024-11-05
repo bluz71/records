@@ -1,14 +1,10 @@
-import defaultTheme from "tailwindcss/defaultTheme";
-
-import aspectRatio from "@tailwindcss/aspect-ratio";
-import forms from "@tailwindcss/forms";
-import typography from "@tailwindcss/typography";
+import defaultTheme from "tailwindcss/defaultTheme"
+import aspectRatio from "@tailwindcss/aspect-ratio"
+import forms from "@tailwindcss/forms"
+import typography from "@tailwindcss/typography"
 
 export default {
-  content: [
-    "./app/views/**/*.{html,html.erb,erb,rb}",
-    "./app/frontend/**/*.{js}",
-  ],
+  content: ["./app/views/**/*.{html,html.erb,rb}", "./app/frontend/**/*.{js}"],
   darkMode: "selector",
   theme: {
     extend: {
@@ -46,4 +42,4 @@ export default {
     },
   },
   plugins: [aspectRatio, forms, typography],
-};
+}
