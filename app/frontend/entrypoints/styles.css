@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Set Alpine.js cloak preference. */
+[x-cloak] {
+  display: none !important;
+}
+
 /* Set base font size to 15.5px, Tailwind CSS font sizes will derive off this base REM size. */
 html {
   font-size: 15.5px;
