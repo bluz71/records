@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Set base font size to 15.5px, Tailwind CSS font sizes will derive off this base REM size. */
+html {
+  font-size: 15.5px;
+}
+
+/* Indicate to the browser that we are in dark mode. Scrollbars should now be rendered dark. */
+.dark {
+  color-scheme: dark;
+}
