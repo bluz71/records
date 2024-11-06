@@ -46,3 +46,6 @@
     end
 
     <Button size="large" />
+
+- Alternative rendering for ViewComponent:
+    https://answers.abstractbrain.com/using-rails-helpers-x-component-for-rendering-viewcomponents
