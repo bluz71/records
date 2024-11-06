@@ -22,3 +22,27 @@
 
     Use 'required' to force non-blank inputs:
       <input type="email" required />
+
+- ViewComponent
+    https://viewcomponent.org/
+
+- ViewComponent templates:
+    https://viewcomponent.org/guide/templates.html
+
+- Theo:
+    https://github.com/loomchild/theo-rails
+
+- Theo ViewComponent templates:
+    https://www.reddit.com/r/rails/comments/1f0ufow/comment/ljuyg0z/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+    class ButtonComponent < ViewComponent::Base
+      theo_template <<-THEO
+        <span class%="@size"><%= content %></span>
+      THEO
+
+      def initialize(size:)
+        @size = size
+      end
+    end
+
+    <Button size="large" />
