@@ -8,17 +8,15 @@
     <%= csp_meta_tag %>
 
     <%= yield :head %>
-
     <!-- Load application icon -->
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <!-- Load web font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-
     <!-- Load Vite managed CSS and JavaScript -->
     <%= vite_stylesheet_tag "styles.css" %>
     <%= vite_client_tag %>
